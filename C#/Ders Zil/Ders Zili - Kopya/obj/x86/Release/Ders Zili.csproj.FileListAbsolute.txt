@@ -1,0 +1,10 @@
+D:\Programlama\C#\Ders Zili\bin\Release\Ders Zili.exe
+D:\Programlama\C#\Ders Zili\bin\Release\Ders Zili.pdb
+D:\Programlama\C#\Ders Zili\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Programlama\C#\Ders Zili\obj\x86\Release\Ders_Zili.AnaForm.resources
+D:\Programlama\C#\Ders Zili\obj\x86\Release\Ders_Zili.Kaynaklar.resources
+D:\Programlama\C#\Ders Zili\obj\x86\Release\Ders_Zili.Properties.Resources.resources
+D:\Programlama\C#\Ders Zili\obj\x86\Release\ResGen.read.1.tlog
+D:\Programlama\C#\Ders Zili\obj\x86\Release\ResGen.write.1.tlog
+D:\Programlama\C#\Ders Zili\obj\x86\Release\Ders Zili.exe
+D:\Programlama\C#\Ders Zili\obj\x86\Release\Ders Zili.pdb

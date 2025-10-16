@@ -1,0 +1,9 @@
+H:\BerkantKazangirler\BerkantKazangirler\bin\Debug\BerkantKazangirler.exe.config
+H:\BerkantKazangirler\BerkantKazangirler\bin\Debug\BerkantKazangirler.exe
+H:\BerkantKazangirler\BerkantKazangirler\bin\Debug\BerkantKazangirler.pdb
+H:\BerkantKazangirler\BerkantKazangirler\obj\Debug\BerkantKazangirler.csprojResolveAssemblyReference.cache
+H:\BerkantKazangirler\BerkantKazangirler\obj\Debug\BerkantKazangirler.Form1.resources
+H:\BerkantKazangirler\BerkantKazangirler\obj\Debug\BerkantKazangirler.Properties.Resources.resources
+H:\BerkantKazangirler\BerkantKazangirler\obj\Debug\BerkantKazangirler.csproj.GenerateResource.Cache
+H:\BerkantKazangirler\BerkantKazangirler\obj\Debug\BerkantKazangirler.exe
+H:\BerkantKazangirler\BerkantKazangirler\obj\Debug\BerkantKazangirler.pdb

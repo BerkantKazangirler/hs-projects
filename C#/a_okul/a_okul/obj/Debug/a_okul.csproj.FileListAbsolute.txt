@@ -1,0 +1,14 @@
+C:\Users\Berka\Desktop\a_okul\a_okul\bin\Debug\a_okul.exe.config
+C:\Users\Berka\Desktop\a_okul\a_okul\bin\Debug\a_okul.exe
+C:\Users\Berka\Desktop\a_okul\a_okul\bin\Debug\a_okul.pdb
+C:\Users\Berka\Desktop\a_okul\a_okul\obj\Debug\a_okul.csprojResolveAssemblyReference.cache
+C:\Users\Berka\Desktop\a_okul\a_okul\obj\Debug\a_okul.Form1.resources
+C:\Users\Berka\Desktop\a_okul\a_okul\obj\Debug\a_okul.Properties.Resources.resources
+C:\Users\Berka\Desktop\a_okul\a_okul\obj\Debug\a_okul.yönetimpanel.resources
+C:\Users\Berka\Desktop\a_okul\a_okul\obj\Debug\a_okul.öğrencinot.resources
+C:\Users\Berka\Desktop\a_okul\a_okul\obj\Debug\a_okul.öğretmenpanel.resources
+C:\Users\Berka\Desktop\a_okul\a_okul\obj\Debug\a_okul.öğrn.resources
+C:\Users\Berka\Desktop\a_okul\a_okul\obj\Debug\a_okul.öğt.resources
+C:\Users\Berka\Desktop\a_okul\a_okul\obj\Debug\a_okul.csproj.GenerateResource.Cache
+C:\Users\Berka\Desktop\a_okul\a_okul\obj\Debug\a_okul.exe
+C:\Users\Berka\Desktop\a_okul\a_okul\obj\Debug\a_okul.pdb

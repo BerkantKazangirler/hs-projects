@@ -1,0 +1,45 @@
+D:\Programlama\C#\Ders Zili\bin\Debug\Ders Zili.exe
+D:\Programlama\C#\Ders Zili\bin\Debug\Ders Zili.pdb
+D:\Programlama\C#\Ders Zili\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Programlama\C#\Ders Zili\obj\x86\Debug\Ders_Zili.AnaForm.resources
+D:\Programlama\C#\Ders Zili\obj\x86\Debug\Ders_Zili.Properties.Resources.resources
+D:\Programlama\C#\Ders Zili\obj\x86\Debug\ResGen.read.1.tlog
+D:\Programlama\C#\Ders Zili\obj\x86\Debug\ResGen.write.1.tlog
+D:\Programlama\C#\Ders Zili\obj\x86\Debug\Ders Zili.exe
+D:\Programlama\C#\Ders Zili\obj\x86\Debug\Ders Zili.pdb
+D:\Programlama\C#\Ders Zili\obj\x86\Debug\Ders_Zili.Kaynaklar.resources
+C:\Users\hasan\Downloads\Ders Zili Kaynak\obj\x86\Debug\Ders Zili.exe
+C:\Users\hasan\Downloads\Ders Zili Kaynak\obj\x86\Debug\Ders Zili.pdb
+C:\Users\hasan\Downloads\Ders Zili Kaynak\bin\Debug\Ders Zili.exe
+C:\Users\hasan\Downloads\Ders Zili Kaynak\bin\Debug\Ders Zili.pdb
+C:\Users\hasan\Downloads\Ders Zili Kaynak\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\hasan\Downloads\Ders Zili Kaynak\obj\x86\Debug\Ders_Zili.AnaForm.resources
+C:\Users\hasan\Downloads\Ders Zili Kaynak\obj\x86\Debug\Ders_Zili.Kaynaklar.resources
+C:\Users\hasan\Downloads\Ders Zili Kaynak\obj\x86\Debug\Ders_Zili.Properties.Resources.resources
+C:\Users\hasan\Downloads\Ders Zili Kaynak\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\hasan\Downloads\Ders Zili Kaynak\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\hasan\Downloads\Ders Zili Kaynak\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\hasan\Downloads\Ders Zili Kaynak\obj\x86\Debug\ResGen.write.1.tlog
+D:\ornekler\C#_net\Ders Zili Kaynak\obj\x86\Debug\Ders Zili.exe
+D:\ornekler\C#_net\Ders Zili Kaynak\obj\x86\Debug\Ders Zili.pdb
+C:\Users\hasan\Desktop\yedekkkkkkkkkkk\Ders Zili Kaynak\obj\x86\Debug\Ders Zili.exe
+C:\Users\hasan\Desktop\yedekkkkkkkkkkk\Ders Zili Kaynak\obj\x86\Debug\Ders Zili.pdb
+C:\Users\hasan\Desktop\yedekkkkkkkkkkk\Ders Zili Kaynak\bin\Debug\Ders Zili.exe
+C:\Users\hasan\Desktop\yedekkkkkkkkkkk\Ders Zili Kaynak\bin\Debug\Ders Zili.pdb
+C:\Users\hasan\Desktop\yedekkkkkkkkkkk\Ders Zili Kaynak\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\hasan\Desktop\yedekkkkkkkkkkk\Ders Zili Kaynak\obj\x86\Debug\Ders_Zili.AnaForm.resources
+C:\Users\hasan\Desktop\yedekkkkkkkkkkk\Ders Zili Kaynak\obj\x86\Debug\Ders_Zili.Kaynaklar.resources
+C:\Users\hasan\Desktop\yedekkkkkkkkkkk\Ders Zili Kaynak\obj\x86\Debug\Ders_Zili.Properties.Resources.resources
+C:\Users\hasan\Desktop\yedekkkkkkkkkkk\Ders Zili Kaynak\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\hasan\Desktop\yedekkkkkkkkkkk\Ders Zili Kaynak\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\hasan\Desktop\yedekkkkkkkkkkk\Ders Zili Kaynak\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\hasan\Desktop\yedekkkkkkkkkkk\Ders Zili Kaynak\obj\x86\Debug\ResGen.write.1.tlog
+H:\Berkant\Ders Zili\obj\x86\Debug\Ders Zili.exe
+H:\Berkant\Ders Zili\obj\x86\Debug\Ders Zili.pdb
+H:\Berkant\Ders Zili\bin\Debug\Ders Zili.exe
+H:\Berkant\Ders Zili\bin\Debug\Ders Zili.pdb
+H:\Berkant\Ders Zili\obj\x86\Debug\Ders Zili.csprojResolveAssemblyReference.cache
+H:\Berkant\Ders Zili\obj\x86\Debug\Ders_Zili.AnaForm.resources
+H:\Berkant\Ders Zili\obj\x86\Debug\Ders_Zili.Kaynaklar.resources
+H:\Berkant\Ders Zili\obj\x86\Debug\Ders_Zili.Properties.Resources.resources
+H:\Berkant\Ders Zili\obj\x86\Debug\Ders Zili.csproj.GenerateResource.Cache

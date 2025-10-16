@@ -1,0 +1,9 @@
+H:\Berkant\ElemanSistemi\ElemanSistemi\bin\Debug\ElemanSistemi.exe.config
+H:\Berkant\ElemanSistemi\ElemanSistemi\bin\Debug\ElemanSistemi.exe
+H:\Berkant\ElemanSistemi\ElemanSistemi\bin\Debug\ElemanSistemi.pdb
+H:\Berkant\ElemanSistemi\ElemanSistemi\obj\Debug\ElemanSistemi.csprojResolveAssemblyReference.cache
+H:\Berkant\ElemanSistemi\ElemanSistemi\obj\Debug\ElemanSistemi.Form1.resources
+H:\Berkant\ElemanSistemi\ElemanSistemi\obj\Debug\ElemanSistemi.Properties.Resources.resources
+H:\Berkant\ElemanSistemi\ElemanSistemi\obj\Debug\ElemanSistemi.csproj.GenerateResource.Cache
+H:\Berkant\ElemanSistemi\ElemanSistemi\obj\Debug\ElemanSistemi.exe
+H:\Berkant\ElemanSistemi\ElemanSistemi\obj\Debug\ElemanSistemi.pdb

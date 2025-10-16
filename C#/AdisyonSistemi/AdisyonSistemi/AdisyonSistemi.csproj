@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6EA679A3-4B66-4DF3-A59C-8095D7BF4289}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AdisyonSistemi</RootNamespace>
+    <AssemblyName>AdisyonSistemi</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="işlemlerayayüz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="işlemlerayayüz.Designer.cs">
+      <DependentUpon>işlemlerayayüz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="masa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masa.Designer.cs">
+      <DependentUpon>masa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="işlemler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="işlemler.Designer.cs">
+      <DependentUpon>işlemler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menü.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menü.Designer.cs">
+      <DependentUpon>menü.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ödeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ödeme.Designer.cs">
+      <DependentUpon>ödeme.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="işlemlerayayüz.resx">
+      <DependentUpon>işlemlerayayüz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="masa.resx">
+      <DependentUpon>masa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="işlemler.resx">
+      <DependentUpon>işlemler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menü.resx">
+      <DependentUpon>menü.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ödeme.resx">
+      <DependentUpon>ödeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pos-terminal-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paid-bill-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-table-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-person-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-restaurant-menu-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-depot-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reservation-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tablecloth-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-export-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hamburger-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ice-cream-sundae-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-milkshake-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dessert-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-hamburger-hot-dog-cheeseburger-fast-food-hamburger-hamburger-food-cheeseburger-american-food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-hamburger-hot-dog-cheeseburger-fast-food-hamburger-hamburger-food-cheeseburger-american-food - Düzenlendi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turka-kusbasili-kasarli-pide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fresh-pizza-and-pizza-box-clipart-design-illustration-free-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-pizza-pizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-pizza-margherita-sushi-pizza-pizza-delivery-pizza-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-doner-kebab-durum-pizza-turkish-cuisine-pizza-food-recipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-chicken-doner-kebab-drm-shawarma-ayran-tavuk-5b383c50e73354.951459131530412112947.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\döner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\et-iskender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\et-iskender1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ee6ce7_cbb61f80d71440599630ed6b45522677~mv2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kebab-PNG-Background-Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d4361f7cf5fdb1f790a836de723e5cf6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomato-Soup-Transparent-Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uzun-ince-yaprak-sarma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slider-islak-hamburger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-french-fries-fish-and-chips-pizza-potato-chip-frying-pizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-french-fries-illustration-hamburger-french-fries-fast-food-fries-food-orange-fries-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\French-Fries-Transparent-Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tavuklu-pilav_1079576.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-omelette-menemen-breakfast-toast-tea-5b1edafab2c461.1830468015287487947322.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suuckluyumurta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nemenem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Omelet-Download-PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lezzet-ustalarinin-tercihi-turk-mutfaginin-vazgecilmezi_196_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beyazet-koriliacilitavuk1611499995_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8821853782066_1599121990639.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ğşav.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kofte-porsiyon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noodle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\700x400px_urunler_cigkoftedurum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kokorec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mussel-Seafood-PNG-Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-coca-cola-box-png-transparent-0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sutas-ayran-300-ml-16288-500x500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2045917.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fanta-portakal_product_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprite-Can-PNG-File.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Milk-PNG-Download-Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\erikli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffeepng1wtuko.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s-3d95f00568b96e512a66df3f9b719ebfb8958a01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bana-baklava.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parti2017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parti20171.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Macaron-PNG-High-Quality-Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ödeme.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

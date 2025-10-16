@@ -1,0 +1,14 @@
+FİLMLER : FİLMLERİ GİRME BÖLÜMÜ ( FİLM EKLE BÖLÜMÜNDE FİLM YOK İSE FİLM GİRİLMEDİ )
+
+FİYATLAR : TAM / ÖĞRENCİ / EMEKLİ FİYATLANDIRMA BÖLÜMÜ
+
+FİLM EKLE : FİLMLER BÖLÜMÜNDEKİ FİLMLERİ EKLER
+
+KOLTUKLAR : KOLTUK SATMA / KONTROL ETME ( FİYATLANDIRMA + FİLM YOK İSE HATA VERİR )
+
+İLK GİRİŞ : KLASİK GİRİŞ BÖLÜMÜ LABEL TIKLAYINCA İŞLEMLERİ YAPAR
+
+                SoundPlayer hata = new SoundPlayer();
+                string hatakonum = Application.StartupPath + "\\hata.wav";
+                hata.SoundLocation = hatakonum;
+                hata.Play();

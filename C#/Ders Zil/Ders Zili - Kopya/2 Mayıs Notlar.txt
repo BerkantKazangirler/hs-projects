@@ -1,0 +1,60 @@
+                  				SQL KOMUTLARI - 10:28 2.05.2023
+
+SQL DML: Veri İşleme Dili
+
+*En Çok Kullanılacak Sql Dml Komutları*
+Select - Seç / Listele
+Listenecek Alanlar from Tablo_adı
+
+Örn: SELECT ad_soyad,maas FROM sirketdb.personel; ( Personel Tablosundan Ad Soyad ve maaş'ı yazdır)
+Örn : SELECT * FROM sirketdb.personel (Sirketdb Datasındaki Personel Tablosundaki Tüm Dataları Yazdır) - ( * = Hepsi )
+
+Where - Şart
+Şart Koşma
+Örn : SELECT * FROM sirketdb.personel WHERE cinsiyet = "Erkek";
+Örn : SELECT * FROM sirketdb.personel WHERE cinsiyet = "Erkek" and maas >= 7500;
+Örn : SELECT * FROM sirketdb.personel WHERE cinsiyet = "Erkek" or maas >= 7500;
+
+Update - Güncelle
+
+
+Insert Into - Yerleştir / Kaydet
+
+
+Delete - Sil / Kaldır
+
+
+As - Gibi Göster
+Tablodaki veri ismini değiştirip kişiye gösterilmesi
+Örn : SELECT personel_id as "Personel Numarası" FROM sirketdb.personel;
+
+SQL DDL: Veri Tanımlama Dili
+
+*En Çok Kullanlıkacak Sql Ddl Komutları*
+Create Table - Tablo Oluştur
+Alter Table - Taboyu Güncelle / Alan Sil-Ekle
+Drop Table - Taboyu Sil
+
+Karşılaştırma Operatörleri
+= 	cinsiyet = "Erkek"	= Eşit ise
+> 	maas >25000	= Büyük ise
+<	maas <18000	= Küçük ise
+>=	yas>=18		= Büyük yada eşit
+<=	yas<=65		= Küçük yada eşit
+<>	bolum<>"bilisim"	= Eşit Değil
+
+Hocanın verdiği görevler
+1- Cinsiyeti Erkek olan personeli listele
+SELECT * FROM sirketdb.personel WHERE cinsiyet = "Erkek";
+
+2- Maaşı 7500'den büyük, cinsiyeti Erkek, Satış Dep. personeli listele
+SELECT * FROM sirketdb.personel WHERE maas >= 7500 and cinsiyet = "Erkek" and departman = "Satış";
+
+3- Muhasebedeki personeli listele
+SELECT * FROM sirketdb.personel WHERE departman = "Muhasebe";
+
+4- Muhasebedeki yada satıştaki personeli listele
+SELECT * FROM sirketdb.personel WHERE departman = "Muhasebe" or departman = "Satış";
+
+5- Muhasebedeki yada satıştaki kadın personeli listele
+SELECT * FROM sirketdb.personel WHERE departman = "Muhasebe" or cinsiyet = "Kadın" and departman = "Satış";

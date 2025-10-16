@@ -1,0 +1,156 @@
+                  					SQL KOMUTLARI - 10:28 2.05.2023
+
+SQL DML: Veri İşleme Dili
+
+*En Çok Kullanılacak Sql Dml Komutları*
+Select - Seç / Listele
+Listenecek Alanlar from Tablo_adı
+Örn: SELECT ad_soyad,maas FROM sirketdb.personel; ( Personel Tablosundan Ad Soyad ve maaş'ı yazdır)
+Örn : SELECT * FROM sirketdb.personel (Sirketdb Datasındaki Personel Tablosundaki Tüm Dataları Yazdır) - ( * = Hepsi )
+
+Where
+Where = Şart Koşma
+Örn : SELECT * FROM sirketdb.personel WHERE cinsiyet = "Erkek";
+Örn : SELECT * FROM sirketdb.personel WHERE cinsiyet = "Erkek" and maas >= 7500;
+Örn : SELECT * FROM sirketdb.personel WHERE cinsiyet = "Erkek" or maas >= 7500;
+
+Update
+Update = Güncelle
+Kullanım : Update tablo_adı, Set AlanAdı = (Yenideğer where....)
+Örn : Update sirketdb.personel Set maas = 15000 where departman = "Muhasebe";
+Örn : Update sirketdb.personel Set maas = maas(maas*20/100);
+Örn : Update sirketdb.personel Set maas = maas(maas+5000);
+Örn : Update sirketdb.personel Set maas = maas+5000 where departman = "Yazılım";
+
+
+Insert Into
+Insert Into = Yerleştir / Kaydet
+Kullanım : Intert Into tablo_adı(alan_adı,alan_adı2...99) Values(deger1,deger2,deger3...99);
+Örn : Insert Into personel (ad_soyad,cinsiyet,departman,giris_tarihi,maas,eposta) VALUES ("Berkant Kazangirler","Erkek","Yazılım,"2017-11-11",100000,"berkantkazangirler@gmail.com")
+
+Delete
+Delete = Sil / Kaldır
+Kullanım : Delete from talo_adı where...
+Örn : Delete from sirketdb.personel where personel_id = 12;
+Örn : Delete from sirketdb.personel where departman = "Muhasebe";
+
+
+As
+As = Gibi Göster
+Tablodaki veri ismini değiştirip kişiye gösterilmesi
+Örn : SELECT personel_id as "Personel Numarası" FROM sirketdb.personel;
+
+SQL DDL: Veri Tanımlama Dili
+
+*En Çok Kullanlıkacak Sql Ddl Komutları*
+Create Table - Tablo Oluştur
+Alter Table - Taboyu Güncelle / Alan Sil-Ekle
+Drop Table - Taboyu Sil
+
+Karşılaştırma Operatörleri
+= 	cinsiyet 		= "Erkek"	= Eşit ise
+> 	maas >25000		= Büyük ise
+<	maas <18000		= Küçük ise
+>=	yas>=18			= Büyük yada eşit
+<=	yas<=65			= Küçük yada eşit
+<>	bolum<>"bilisim"	= Eşit Değil
+
+Hocanın verdiği görevler
+1- Cinsiyeti Erkek olan personeli listele
+SELECT * FROM sirketdb.personel WHERE cinsiyet = "Erkek";
+
+2- Maaşı 7500'den büyük, cinsiyeti Erkek, Satış Dep. personeli listele
+SELECT * FROM sirketdb.personel WHERE maas >= 7500 and cinsiyet = "Erkek" and departman = "Satış";
+
+3- Muhasebedeki personeli listele
+SELECT * FROM sirketdb.personel WHERE departman = "Muhasebe";
+
+4- Muhasebedeki yada satıştaki personeli listele
+SELECT * FROM sirketdb.personel WHERE departman = "Muhasebe" or departman = "Satış";
+
+5- Muhasebedeki yada satıştaki kadın personeli listele
+SELECT * FROM sirketdb.personel WHERE departman = "Muhasebe" or cinsiyet = "Kadın" and departman = "Satış";
+
+
+
+                  					SQL KOMUTLARI - 08:44 4.05.2023
+
+SELECT
+SELECT listenecek alanlar FROM tablon_adı
+Örn : SELECT ad,soyad FROM personel;
+Örn : Tüm alanları listele = SELECT * FROM personel;
+* = Tüm Alanlar
+
+SELECT AS
+Örn Kod : SELECT ad_soyad as "Personel Adı Soyadı", maas as "Personel Maaş", departman "Görev Yeri", giris_tarihi as "Giriş Tarihi", eposta as "E-Posta" FROM sirketdb.personel;
+Örn : Sütünların çıktıda yeniden adlandırma
+Orjinal : Ad | Soyad
+SELECT ad_soyad as "Personel Ad/Soyad", maas as "Ücret" from personel; ( as = Gibi )
+Çıktı : Personel Ad/Soyad | Ücret
+
+SELECT DISTINCT
+SELECT DISTINC sütün FROM tablo_adı
+Örn : Departman Sayıları
+SELECT DISTINCT departman FROM sirketdb.personel;
+
+SELECT Where
+SELECT * FROM tablo_adı Where şart
+Örn : SELECT * FROM personel where departman = "Muhasebe";
+Örn : SELECT * FROM personel where departman = "Muhasebe" and cinsiyet = "Erkek";
+Örn : SELECT * FROM personel where departman = "Muhasebe" or cinsiyet = "Erkek";
+
+                  			 SQL Komutları ( Hesaplama Fonksiyonları ) - 09:45 4.05.2023
+1 - SELECT Count
+Count() = Kayıt Sayısı
+SELECT Count(Alan Adı) FROM tablo_adı
+Örn : SELECT Count(personel_id) FROM sirketdb.personel;
+Çıktı : Count(7)
+Örn : SELECT Count(personel_id) as "Personel Sayısı" FROM sirketdb.personel;
+Çıktı : Personel Sayısı(7)
+Örn : SELECT Count(personel_id) as "Kadın Personel Sayısı" FROM sirketdb.personel Where cinsiyet = "Kadın";
+Çıktı : Kadın Personel Sayısı(2)
+
+2 - SELECT Sum
+Sum() = Toplam
+SELECT Sum(Alan Adı) FROM tablo_adı
+Örn : SELECT Sum(maas) as "Muhasebede Çalışanların Maaş Toplamı" FROM sirketdb.personel where departman = "Muhasebe";
+Çıktı : Muhasebede Çalışanların Maaş Toplamı(77.000)
+Örn : SELECT Sum(maas) as "Erkek Olup Muhasebede Çalışanların Maaş Toplamı" FROM sirketdb.personel where departman = "Muhasebe" and cinsiyet = "Erkek";
+Çıktı : Erkek Olup Muhasebede Çalışanların Maaş Toplamı(70.000)
+
+3 - SELECT AVG
+Avg() = Ortalama
+SELECT Avg(Alan Adı) FROM tablo_adı
+Örn : SELECT Avg(maas) FROM sirketdb.personel;
+Çıktı : 19625.000000
+Örn : SELECT Avg(maas) FROM sirketdb.personel where cinsiyet = "Erkek";
+Çıktı : 23583.333333
+
+4 - SELECT Max/Min
+Max() = En Yüksek
+Min() = En Düşük
+Kullanım : SELECT Max(Alan Adı) FROM tablo_adı
+Kullanım : SELECT Min(Alan Adı) FROM tablo_adı
+Örn : SELECT Max(maas), ad_soyad FROM sirketdb.personel;
+Çıktı : 25000 | Berkant
+Örn : SELECT Min(maas), ad_soyad FROM sirketdb.personel;
+Çıktı : 7000 | Sinan
+
+5- SELECT LIKE
+LIKE = Arama Operatoru
+Kullanım : 
+Örn : SELECT * FROM sirketdb.personel where LIKE "%R";
+Çıktı : Berkant Kazangirler
+
+6 - Order By
+Order By = Sıralama
+desc = Küçükten Büyüğe
+asc = Büyükten Küçüğe
+Kullanım : 
+SELECT * FROM tablo_adı order by maas
+Örn : SELECT * FROM sirketdb.personel Order By maas;
+Çıktı : 7000
+Örn : SELECT * FROM sirketdb.personel Order By maas decs;
+Çıktı : 95000
+Örn : SELECT * FROM sirketdb.personel Order By maas asc;
+Çıktı : 7000

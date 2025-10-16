@@ -1,0 +1,16 @@
+            try
+            {
+                if(s1a1.BackColor == Color.Red)
+                {
+                    MessageBox.Show("Bu Koltuk Zaten Satılmış");
+                }
+                else
+                {
+                    skoltuk = "s1a1"
+                    groupBox3.Visible = true;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Kod Bölümündeki Bir Hata Tetiklendi");
+            }

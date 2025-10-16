@@ -1,0 +1,14 @@
+c:\users\berka\documents\visual studio 2015\Projects\AdisyonSistemi\AdisyonSistemi\bin\Debug\AdisyonSistemi.exe.config
+c:\users\berka\documents\visual studio 2015\Projects\AdisyonSistemi\AdisyonSistemi\bin\Debug\AdisyonSistemi.exe
+c:\users\berka\documents\visual studio 2015\Projects\AdisyonSistemi\AdisyonSistemi\bin\Debug\AdisyonSistemi.pdb
+c:\users\berka\documents\visual studio 2015\Projects\AdisyonSistemi\AdisyonSistemi\obj\Debug\AdisyonSistemi.csprojResolveAssemblyReference.cache
+c:\users\berka\documents\visual studio 2015\Projects\AdisyonSistemi\AdisyonSistemi\obj\Debug\AdisyonSistemi.Form1.resources
+c:\users\berka\documents\visual studio 2015\Projects\AdisyonSistemi\AdisyonSistemi\obj\Debug\AdisyonSistemi.Properties.Resources.resources
+c:\users\berka\documents\visual studio 2015\Projects\AdisyonSistemi\AdisyonSistemi\obj\Debug\AdisyonSistemi.csproj.GenerateResource.Cache
+c:\users\berka\documents\visual studio 2015\Projects\AdisyonSistemi\AdisyonSistemi\obj\Debug\AdisyonSistemi.exe
+c:\users\berka\documents\visual studio 2015\Projects\AdisyonSistemi\AdisyonSistemi\obj\Debug\AdisyonSistemi.pdb
+c:\users\berka\documents\visual studio 2015\Projects\AdisyonSistemi\AdisyonSistemi\obj\Debug\AdisyonSistemi.ödeme.resources
+c:\users\berka\documents\visual studio 2015\Projects\AdisyonSistemi\AdisyonSistemi\obj\Debug\AdisyonSistemi.masa.resources
+c:\users\berka\documents\visual studio 2015\Projects\AdisyonSistemi\AdisyonSistemi\obj\Debug\AdisyonSistemi.işlemler.resources
+c:\users\berka\documents\visual studio 2015\Projects\AdisyonSistemi\AdisyonSistemi\obj\Debug\AdisyonSistemi.menü.resources
+C:\Users\Berka\Documents\Visual Studio 2015\Projects\AdisyonSistemi\AdisyonSistemi\obj\Debug\AdisyonSistemi.işlemlerayayüz.resources
